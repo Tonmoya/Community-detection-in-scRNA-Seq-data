@@ -70,7 +70,7 @@ corr_sz <- cor(dat_sz, method = "pearson")
 
 dim(corr_control)
 dim(corr_sz)      
-colSums(corr_genes==0)   # no zero values found in columns
+#colSums(corr_genes==0)   # no zero values found in columns
 
 
 # Using the SZ data for further analysis
