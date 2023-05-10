@@ -74,7 +74,7 @@ FeatureScatter(merged.seurat, feature1 = "nCount_RNA", feature2 = "nFeature_RNA"
 
 
 # filtering merged data -------------------------
-merged.seurat_filtered <- subset(merged.seurat, subset = nCount_RNA > 800 & nFeature_RNA > 500 & mitoPercent < 10)
+merged.seurat_filtered <- subset(merged.seurat, subset = nCount_RNA > 800 & nFeature_RNA > 500 & mitoPercent < 5)
 
 merged.seurat_filtered  # 33538 features across 25275 samples within 1 assay
 
